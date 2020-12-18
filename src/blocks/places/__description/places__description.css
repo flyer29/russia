@@ -1,0 +1,24 @@
+.places__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #FFF;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .places__description {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__description {
+        width: 100%;
+        padding: 0 16px;
+    }
+}

@@ -1,0 +1,17 @@
+.header__language-menu {
+    min-width: 78px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 425px) {
+    .header__language-menu{
+        min-width: 76px;
+    } 
+}
+

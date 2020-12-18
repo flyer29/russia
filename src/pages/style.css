@@ -1,0 +1,75 @@
+@import url('../fonts/inter.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__language-menu/header__language-menu.css');
+@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__link/_type_active/header__link_type_active.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__title/lead__title.css');
+@import url('../blocks/lead/__subtitle/lead__subtitle.css');
+@import url('../blocks/lead/__illustration/lead__illustration.css');
+@import url('../blocks/lead/__caption/lead__caption.css');
+@import url('../blocks/lead/__image/lead__image.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/intro/__title/intro__title.css');
+@import url('../blocks/intro/__content/intro__content.css');
+@import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__list-numbers/intro__list-numbers.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/photo-grid/__item/photo-grid__item.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/places/__item/places__item.css');
+@import url('../blocks/places/__title-container/places__title-container.css');
+@import url('../blocks/places/__title/places__title.css');
+@import url('../blocks/website/website.css');
+@import url('../blocks/website/__ulr-heading/website__url-heading.css');
+@import url('../blocks/website/__ulr-heading/_type_places/website__url-heading_type_places.css');
+@import url('../blocks/website/__url/website__url.css');
+@import url('../blocks/places/__description-container/places__description-container.css');
+@import url('../blocks/places/__image/places__image.css');
+@import url('../blocks/places/__description/places__description.css');
+@import url('../blocks/places/__paragraph/places__paragraph.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/video/__block-title/video__block-title.css');
+@import url('../blocks/video/__block-subtitle/video__block-subtitle.css');
+@import url('../blocks/video/__container/video__container.css');
+@import url('../blocks/video/__link/video__link.css');
+@import url('../blocks/video/__link/_type_kamchatka/video__link_type_kamchatka.css');
+@import url('../blocks/video/__link/_type_observatory/video__link_type_observatory.css');
+@import url('../blocks/video/__icon/video__icon.css');
+@import url('../blocks/video/__duration/video__duration.css');
+@import url('../blocks/video/__title/video__titile.css');
+@import url('../blocks/video/__subtitile/video__subtitle.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/comments/__title/comments__title.css');
+@import url('../blocks/comments/__subtitle/comments__subtitle.css');
+@import url('../blocks/comments/__container/comments__container.css');
+@import url('../blocks/comments/__comment/comments__comment.css');
+@import url('../blocks/comments/__image/comments__image.css');
+@import url('../blocks/comments/__quote/comments__quote.css');
+@import url('../blocks/comments/__author/comments__author.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/cover/__link/cover__link.css');
+@import url('../blocks/cover/__title/cover__title.css');
+@import url('../blocks/cover/__subtitle/cover__subtitle.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/nav/nav.css');
+@import url('../blocks/nav/__list/nav__list.css');
+@import url('../blocks/nav/nav__list-item/nav__list-item.css');
+@import url('../blocks/nav/__link/nav__link.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+
+body {
+  margin: 0;
+}
+
+.page {
+    width: 100%;
+    font-family: 'Inter', Arial, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A2C2F;
+}

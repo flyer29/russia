@@ -1,0 +1,12 @@
+.nav {
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .nav {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
