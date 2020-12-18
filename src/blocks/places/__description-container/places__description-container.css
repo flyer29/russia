@@ -1,0 +1,12 @@
+.places__description-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .places__description-container {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,36 @@
+.comments {
+  font-family: 'Inter', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 52px 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .comments {
+    width: 1184px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .comments {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .comments {
+    width: 100%;
+    padding: 51px 24px; 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .comments {
+    width: 100%;
+    padding: 32px 16px;
+  }
+}

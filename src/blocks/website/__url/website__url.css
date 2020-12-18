@@ -1,0 +1,12 @@
+.website__url {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #FFF;
+    transition: opacity .3s linear;
+}
+
+.website__url:hover {
+    opacity: .7;
+}

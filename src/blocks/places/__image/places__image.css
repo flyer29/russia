@@ -1,0 +1,34 @@
+.places__image {
+    display: block;
+}
+
+@media screen and (min-width:1280px) {
+    .places__image {
+        max-width: 460px;
+        max-height: 460px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .places__image {
+        width: calc(50% - 32px);
+        height: calc(50% - 32px);
+        
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places__image {
+        width: calc(50% - 28px);
+        height: calc(50% - 28px);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__image {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+}

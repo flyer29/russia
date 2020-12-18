@@ -1,0 +1,28 @@
+.website {
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    color: #fff;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .website {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .website {
+        width: calc(50% - 9px);
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .website {
+        width: calc((100% - 32px)/2);
+    }
+}

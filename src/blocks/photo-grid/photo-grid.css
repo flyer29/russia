@@ -1,0 +1,39 @@
+.photo-grid {
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 1184px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    box-sizing: border-box;
+    margin: 0;
+    color: #fff;
+}
+
+@media screen and (min-width: 1280px) {
+    .photo-grid {
+        width: 1184px;
+        padding: 57px 0 34px 0;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .photo-grid {
+        width: calc(100% - 96px);
+        padding: 60px 0 36px 0
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        width: 100%;
+        padding: 57px 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        width: 100%;
+        padding: 32px 16px;
+    }
+}

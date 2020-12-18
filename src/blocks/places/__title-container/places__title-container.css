@@ -1,0 +1,13 @@
+.places__title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 53px;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .places__title-container {
+    margin-bottom: 30px;
+  }
+}
